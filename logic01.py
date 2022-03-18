@@ -8,5 +8,5 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return 1 if (c-b)>0 and (b-a)>0 else 0
+    return 1 if ((c-b)>0 and (b-a)>0) else 0
 print(bool(main(9,8,11)))
