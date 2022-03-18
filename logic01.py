@@ -9,4 +9,4 @@ def main(a,b,c):
         bool: answer
     """
     return 1 if c-b>0 and b-a>0 else 0
-print(bool(main(9,8,11)))
+print(main(9,8,11))
