@@ -8,5 +8,4 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return bool(1) if ((c-b)>=0 and (b-a)>=0) else bool(0)
-print(main(9,8,11))
+    return bool(1) if (c-b)>0 and (b-a)>0 else bool(0)
