@@ -8,6 +8,6 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return bool(1) if (c-b)>0 and (b-a)>0 else bool(0) 
-print(main(1,2,3))
+    return bool(1) if (c-b)>0 and (b-a)>0 or (a-b)>0 and (b-c)>0 else bool(0) 
+print(main(3,2,1))
 
