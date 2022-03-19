@@ -9,5 +9,5 @@ def main(a,b,c):
         bool: answer
     """
     return bool(1) if (c-b)>0 and (b-a)>0 else bool(0) 
-
+print(main(1,2,3))
 
