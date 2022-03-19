@@ -8,3 +8,5 @@ def main(a,b):
         bool: answer
     """
     return bool(1) if a%2==0 and b%2==0 else bool (0)
+print(main(2,5))
+
