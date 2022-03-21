@@ -13,7 +13,6 @@ def main(n):
     x3=n%1000//100
     x4=n%10000//1000
     x5=n%100000//10000
-    x6=n%1000000//100000
     number_of_ones=0 
     number_of_zero=0
     if x1-1==0 and 0<n<100000: number_of_ones+=1
@@ -26,11 +25,9 @@ def main(n):
     if x4-1==-1 and 0<n<100000 : number_of_zero+=1 
     if x5-1==0 and 0<n<100000 : number_of_ones+=1
     if x5-1==-1 and 0<n<100000 : number_of_zero+=1 
-    if x6-1==0 and 0<n<100000 : number_of_ones+=1
-    if x6-1==-1 and 0<n<100000 : number_of_zero+=1 
     if number_of_ones>number_of_zero :return bool(1) 
-    if number_of_ones<number_of_zero : return bool(0)
-    if number_of_ones==number_of_zero : return bool(0)
+    else : return bool(0)
+   
 
 
-print(main(1001))
+print(main(10001))
