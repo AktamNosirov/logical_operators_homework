@@ -29,7 +29,8 @@ def main(n):
     if x6-1==0 and 0<n<100000 : number_of_ones+=1
     if x6-1==-1 and 0<n<100000 : number_of_zero+=1 
     if number_of_ones>number_of_zero :return bool(1) 
-    if number_of_ones<number_of_zero : return bool(0) 
+    if number_of_ones<number_of_zero : return bool(0)
+    if number_of_ones==number_of_zero : return bool(0)
 
 
 print(main(1001))
